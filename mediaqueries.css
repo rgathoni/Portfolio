@@ -102,3 +102,30 @@
     text-align: justify;
   }
 }
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1400px) {
+    .gallery-container {
+      margin: 0 5rem;
+    }
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .gallery-container {
+      grid-template-columns: repeat(2, 1fr);
+      margin: 0 2rem;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .gallery-container {
+      grid-template-columns: 1fr;
+      margin: 0 1rem;
+    }
+    
+    .icon.arrow {
+      right: -3rem;
+      bottom: 2rem;
+    }
+  }
