@@ -19,7 +19,7 @@ html {
 }
 
 p {
-  color: rgb(137, 137, 137);
+  color: rgb(252, 253, 251);
 }
 
 /* TRANSITION */
@@ -181,6 +181,7 @@ section {
 .section__text {
   align-self: center;
   text-align: center;
+  color: azure;
 }
 
 .section__text p {
@@ -296,6 +297,7 @@ section {
   position: absolute;
   right: -5rem;
   bottom: 2.5rem;
+  color: red;
 }
 
 .details-container {
@@ -336,6 +338,7 @@ section {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  color: rgb(237, 247, 216);
 }
 
 .article-container {
@@ -356,6 +359,10 @@ article {
 
 article .icon {
   cursor: default;
+}
+
+.level p {
+  color: rgb(245, 199, 209);
 }
 
 /* PROJECTS SECTION */
@@ -382,7 +389,7 @@ article .icon {
 
 .project-btn {
   color: black;
-  border-color: rgb(163, 163, 163);
+  border-color: rgb(155, 153, 153);
 }
 
 /* CONTACT */
